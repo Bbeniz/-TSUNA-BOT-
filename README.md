@@ -21,7 +21,7 @@
       <b>FORK</b><br>
       Fork le repo pour personnaliser 么⸙ TSUNA乛亗࿐ bot
       <br><br>
-      <a href="https://github.com/Bbeniz/-TSUNA-/fork">
+      <a href="https://github.com/Bbeniz/-TSUNA-BOT-/tree/main">
         <img src="https://img.shields.io/badge/FORK-么⸙%20TSUNA乛亗࿐-8A2BE2" alt="FORK" width="180">
       </a>
     </td>
@@ -47,7 +47,7 @@
       <b>DOWNLOAD ZIP</b><br>
       Télécharger la dernière version
       <br><br>
-      <a href="https://github.com/Bbeniz/-TSUNA-/archive/refs/heads/main.zip">
+      <a href="https://github.com/Bbeniz/-TSUNA-BOT-/archive/refs/heads/main.zip">
         <img src="https://img.shields.io/badge/Download-ZIP-0366D6" alt="Download zip" width="200">
       </a>
     </td>
