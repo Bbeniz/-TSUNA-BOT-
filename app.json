@@ -1,0 +1,94 @@
+{
+  "name": "TSUNA-MD",
+  "description": "么⸙ TSUNA乛亗࿐ - Bot WhatsApp Multi-Device pour rendre votre WhatsApp stylé et puissant",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "tsuna",
+    "tsuna-md",
+    "whatsapp-stickers",
+    "anime",
+    "whatsapp-bot",
+    "whatsapp-sticker-bot",
+    "baileys",
+    "baileys-md",
+    "md-bot"
+  ],
+  "website": "",
+  "repository": "https://github.com/Bbeniz/-TSUNA-.git",
+  "logo": "https://i.ibb.co/WWzYc0pQ/1bb0ef902f0a7e239b6ad1cf0282acc7.jpg",
+  "success_url": "/",
+  "env": {
+    "OWNER_NUMBER": {
+      "description": "Numéro du propriétaire du bot sans + ni espaces. Ex: 24381xxxxxxx",
+      "value": "243971474966",
+      "required": false
+    },
+    "SESSION": {
+      "description": "Votre ID de session WhatsApp",
+      "required": true
+    },
+    "AUTOVIEW_STATUS": {
+      "description": "Voir auto les statuts WhatsApp (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "AUTOLIKE_STATUS": {
+      "description": "Liker auto les statuts WhatsApp (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "STATUS_LIKE_EMOJIS": {
+      "description": "Emojis pour liker les statuts (séparés par des virgules)",
+      "value": "⚡,🔥,💜",
+      "required": false
+    },
+    "PREFIX": {
+      "description": "Préfixe des commandes du bot",
+      "value": "+",
+      "required": false
+    },
+    "BOT_EXPIRATION_DATE": {
+      "description": "Date d'expiration du bot au format jj/mm/aaaa",
+      "value": "11/03/2027",
+      "required": false
+    },
+    "BOT_PIC": {
+      "description": "URL de la photo de profil du bot",
+      "value": "https://i.ibb.co/WWzYc0pQ/1bb0ef902f0a7e239b6ad1cf0282acc7.jpg",
+      "required": false
+    },
+    "BOTNAME": {
+      "description": "Nom d'affichage du bot",
+      "value": "TSUNA-MD",
+      "required": false
+    },
+    "AUTO_SOCIAL_DOWNLOAD": {
+      "description": "Télécharger auto les vidéos TikTok, Insta, YouTube quand tu envoies le lien",
+      "value": "false",
+      "required": false
+    },
+    "OWNER_NAME": {
+      "description": "Nom du propriétaire du bot",
+      "value": "TSUNA",
+      "required": false
+    },
+    "MODE": {
+      "description": "Mode du bot (public/private)",
+      "value": "public",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0",
+      "as": "DATABASE"
+    }
+  ]
+}
