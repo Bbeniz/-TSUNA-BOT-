@@ -5,7 +5,7 @@
 </h1>
 
 <div style="text-align: center;">
-  <a href="https://github.com/Bbeniz/-TSUNA-">
+  <a href="https://github.com/Bbeniz/-TSUNA-BOT-">
     <img src="https://files.catbox.moe/dcogfy.jpg" alt="么⸙ TSUNA乛BOT亗࿐" border="0" style="border-radius: 15px; box-shadow: 0 0 20px #8A2BE2;" />
   </a>
   <hr style="margin-top: 20px; margin-bottom: 20px; border: 1px solid #8A2BE2;"/>
@@ -19,7 +19,7 @@
   <tr>
     <td align="center">
       <b>FORK</b><br>
-      Fork le repo pour personnaliser 么⸙ TSUNA乛亗࿐ bot
+      Fork le repo pour personnaliser 么⸙ TSUNA乛BOT亗࿐
       <br><br>
       <a href="https://github.com/Bbeniz/-TSUNA-BOT-/tree/main">
         <img src="https://img.shields.io/badge/FORK-么⸙%20TSUNA乛亗࿐-8A2BE2" alt="FORK" width="180">
