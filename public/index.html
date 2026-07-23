@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSUNA乛BOT - ONLINE 🟢</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            display: flex; justify-content: center; align-items: center;
+            height: 100vh; background: #000; overflow: hidden;
+            font-family: 'Courier New', monospace;
+        }
+        .container {
+            position: relative;
+            width: 85vmin; height: 85vmin;
+            display: flex; justify-content: center; align-items: center; flex-direction: column;
+            border: 1px solid rgba(0,255,13,0.3);
+            box-shadow: 0 0 50px rgba(0,255,13,0.2), inset 0 0 50px rgba(0,255,13,0.05);
+            backdrop-filter: blur(5px);
+            padding: 4vmin;
+        }
+        .circle {
+            position: absolute; background: transparent;
+            width: calc(var(--i) * 2vmin); aspect-ratio: 1;
+            border-radius: 50%; border: 1px solid rgba(0, 255, 13, 0.6);
+            transform-style: preserve-3d; transform: rotateX(70deg) translateZ(50px);
+            animation: animate 3s ease-in-out calc(var(--i) * 0.08s) infinite;
+            box-shadow: 0 0 10px rgba(0,255,13,0.5), inset 0 0 10px rgba(0,255,13,0.3);
+        }
+        h1 {
+            position: relative; z-index: 10;
+            color: #00ff0d; font-size: 7vmin; letter-spacing: 4px;
+            text-shadow: 0 0 20px #00ff0d;
+            animation: glow 3s ease-in-out infinite;
+            font-weight: 300;
+        }
+        .status {
+            position: relative; z-index: 10;
+            color: rgba(0,255,13,0.8); font-size: 2vmin; margin-top: 8px;
+            letter-spacing: 3px;
+        }
+        .owner {
+            position: absolute; bottom: 3vmin; z-index: 10;
+            color: rgba(0,255,13,0.7); font-size: 1.8vmin;
+            border-top: 1px solid rgba(0,255,13,0.3);
+            padding-top: 1.5vmin; width: 70%;
+            text-align: center;
+            letter-spacing: 2px;
+            text-decoration: none;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .owner:hover {
+            color: #00ff0d;
+            text-shadow: 0 0 10px #00ff0d;
+            border-top: 1px solid #00ff0d;
+        }
+        @keyframes glow {
+            0%, 100% { opacity: 1; text-shadow: 0 0 20px #00ff0d; }
+            50% { opacity: 0.7; text-shadow: 0 0 5px #00ff0d; }
+        }
+        @keyframes animate {
+            0%, 100% { transform: rotateX(70deg) translateZ(50px) translateY(0); filter: hue-rotate(0); }
+            50% { transform: rotateX(70deg) translateZ(50px) translateY(-35vmin); filter: hue-rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TSUNA乛BOT - ONLINE 🟢</h1>
+        <p class="status">TSUNA乛BOT WHATSAPP // ONLINE 🟢</p>
+        
+        <div class="circle" style="--i:0;"></div>
+        <div class="circle" style="--i:1;"></div>
+        <div class="circle" style="--i:2;"></div>
+        <div class="circle" style="--i:3;"></div>
+        <div class="circle" style="--i:4;"></div>
+        <div class="circle" style="--i:5;"></div>
+        <div class="circle" style="--i:6;"></div>
+        <div class="circle" style="--i:7;"></div>
+        <div class="circle" style="--i:8;"></div>
+        <div class="circle" style="--i:9;"></div>
+        <div class="circle" style="--i:10;"></div>
+        <div class="circle" style="--i:11;"></div>
+        <div class="circle" style="--i:12;"></div>
+        <div class="circle" style="--i:13;"></div>
+        <div class="circle" style="--i:14;"></div>
+        <div class="circle" style="--i:15;"></div>
+        <div class="circle" style="--i:16;"></div>
+        < class="circle" style="--i:17;"></div>
+        <div class="circle" style="--i:18;"></div>
+        <div class="circle" style="--i:19;"></div>
+        <div class="circle" style="--i:20;"></div>
+
+        <a href="https://wa.me/243971474966" target="_blank" class="owner">By 么⸙ TSUNA乛亗࿐</a>
+    </div>
+</body>
+  </html>
