@@ -1,0 +1,31 @@
+name: DavBot Outils Auto Deploy (5h)
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 */5 * * *"   # ⏰ Toutes les 5 heures
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 295    # ⏱️ 4h55 (sécurité avant le prochain run)
+
+    steps:
+      - name: 📥 Cloner le dépôt
+        uses: actions/checkout@v4
+
+      - name: 🟢 Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 📦 Installer les dépendances
+        run: npm install
+
+      - name: ▶️ Lancer le bot
+        run: npm start
