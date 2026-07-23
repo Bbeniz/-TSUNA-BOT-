@@ -55,7 +55,7 @@
     },
     "BOT_PIC": {
       "description": "URL de la photo de profil du bot",
-      "value": "https://i.ibb.co/WWzYc0pQ/1bb0ef902f0a7e239b6ad1cf0282acc7.jpg",
+      "value": "https://files.catbox.moe/dcogfy.jpg",
       "required": false
     },
     "BOTNAME": {
